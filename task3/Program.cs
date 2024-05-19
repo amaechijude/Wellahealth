@@ -1,10 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 
-static string Remainder(int x, int y) {
+static int Remainder(int x, int y) {
     int result = x % y;
 
-    return $"The remainder is {result}";
+    return result;
 }
 
 /*
@@ -20,4 +20,4 @@ int y = 2;
 
 var output = Remainder(x, y);
 
-Console.WriteLine(output);
+Console.WriteLine($"The rem of {x}/{y} --> {output}");
