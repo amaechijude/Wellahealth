@@ -11,14 +11,4 @@ namespace MyName
     }
 }
 
-//  public class Bank
-//     {
-//         private int balance;
-
-//         public int Balance
-//         {
-//             get { return balance; }
-//             set { balance = value; }
-//         }
-//     }
 }

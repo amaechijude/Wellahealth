@@ -4,18 +4,18 @@ namespace MyBank
         private int balance;
 
         public int BankA {
-            get { return this.balance; }
-            set { this.balance = value; }
+            get { return balance; }
+            set { balance = value; }
         }
 
         public int BankB {
-            get { return this.balance; }
-            set { this.balance = value; }
+            get { return balance; }
+            set { balance = value; }
         }
 
         public int BankC {
-            get { return this.balance; }
-            set { this.balance = value; }
+            get { return balance; }
+            set { balance = value; }
         }
     }
 }
