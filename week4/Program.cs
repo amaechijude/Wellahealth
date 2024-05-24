@@ -5,14 +5,14 @@ using MyBank;
 // tez.Name = "Amaechi";
 // var t = tez.Name;
 
-Bank bal = new();
-var a = bal.BankA = 200;
-var b = bal.BankB = 300;
-var c = bal.BankC = 500;
+// Bank bal = new();
+// var a = bal.BankA = 200;
+// var b = bal.BankB = 300;
+// var c = bal.BankC = 500;
 
-Console.WriteLine($"The sum of {a} was deposited in Bank A");
-Console.WriteLine(b);
-Console.WriteLine(c);
+// Console.WriteLine($"The sum of {a} was deposited in Bank A");
+// Console.WriteLine(b);
+// Console.WriteLine(c);
 
 //buble sort
 
