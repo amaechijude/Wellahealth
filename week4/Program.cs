@@ -31,3 +31,53 @@ Console.WriteLine(c);
 // }
 
 // Console.WriteLine("[" + string.Join(", ", nums) + "]");
+//
+public abstract class Bank
+{
+    public abstract double getBalance();
+}
+
+public class BankA : Bank
+{
+    private double balance = 100;
+
+    public override double getBalance()
+    {
+        return balance;
+    }
+}
+
+public class BankB : Bank
+{
+    private double balance = 150;
+
+    public override double getBalance()
+    {
+        return balance;
+    }
+}
+
+public class BankC : Bank
+{
+    private double balance = 200;
+
+    public override double getBalance()
+    {
+        return balance;
+    }
+}
+
+public class BankTest
+{
+    public static void Main(string[] args)
+    {
+        BankA bankA = new BankA();
+        BankB bankB = new BankB();
+        BankC bankC = new BankC();
+
+        Console.WriteLine("Bank A Balance: $" + bankA.getBalance());
+        Console.WriteLine("Bank B Balance: $" + bankB.getBalance());
+        Console.WriteLine("Bank C Balance: $" + bankC.getBalance());
+    }
+}
+
