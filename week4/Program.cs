@@ -1,17 +1,16 @@
-﻿using MyName; 
+﻿//using MyName; 
 using MyBank;
 
-Person tez = new();
-tez.Name = "Amaechi";
-var t = tez.Name;
+// Person tez = new();
+// tez.Name = "Amaechi";
+// var t = tez.Name;
 
 Bank bal = new();
 var a = bal.BankA = 200;
 var b = bal.BankB = 300;
 var c = bal.BankC = 500;
 
-Console.WriteLine(t);
-Console.WriteLine(a);
+Console.WriteLine($"The sum of {a} was deposited in Bank A");
 Console.WriteLine(b);
 Console.WriteLine(c);
 
