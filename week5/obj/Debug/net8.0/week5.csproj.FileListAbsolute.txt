@@ -1,0 +1,15 @@
+C:\Users\okwuolisa\Wellahealth\week5\bin\Debug\net8.0\week5.exe
+C:\Users\okwuolisa\Wellahealth\week5\bin\Debug\net8.0\week5.deps.json
+C:\Users\okwuolisa\Wellahealth\week5\bin\Debug\net8.0\week5.runtimeconfig.json
+C:\Users\okwuolisa\Wellahealth\week5\bin\Debug\net8.0\week5.dll
+C:\Users\okwuolisa\Wellahealth\week5\bin\Debug\net8.0\week5.pdb
+C:\Users\okwuolisa\Wellahealth\week5\obj\Debug\net8.0\week5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\okwuolisa\Wellahealth\week5\obj\Debug\net8.0\week5.AssemblyInfoInputs.cache
+C:\Users\okwuolisa\Wellahealth\week5\obj\Debug\net8.0\week5.AssemblyInfo.cs
+C:\Users\okwuolisa\Wellahealth\week5\obj\Debug\net8.0\week5.csproj.CoreCompileInputs.cache
+C:\Users\okwuolisa\Wellahealth\week5\obj\Debug\net8.0\week5.sourcelink.json
+C:\Users\okwuolisa\Wellahealth\week5\obj\Debug\net8.0\week5.dll
+C:\Users\okwuolisa\Wellahealth\week5\obj\Debug\net8.0\refint\week5.dll
+C:\Users\okwuolisa\Wellahealth\week5\obj\Debug\net8.0\week5.pdb
+C:\Users\okwuolisa\Wellahealth\week5\obj\Debug\net8.0\week5.genruntimeconfig.cache
+C:\Users\okwuolisa\Wellahealth\week5\obj\Debug\net8.0\ref\week5.dll
