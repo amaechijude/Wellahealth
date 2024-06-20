@@ -60,4 +60,16 @@ int[] merged_array = array1.Concat(array2).ToArray();
 
 Console.WriteLine($"{string.Join(", ", merged_array)}");
 
-// Question
+// Question 5:
+
+
+
+// Question 6: Sorting and reversing
+int[] array_to_sort = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};
+
+Array.Sort(array_to_sort);
+Console.WriteLine(array_to_sort);
+// Reverse
+
+Array.Reverse(array_to_sort);
+Console.WriteLine(array_to_sort);
