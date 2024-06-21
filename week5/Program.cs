@@ -61,6 +61,25 @@ int[] merged_array = array1.Concat(array2).ToArray();
 Console.WriteLine($"{string.Join(", ", merged_array)}");
 
 // Question 5:
+public class Book {
+	public string Title {get; set;}
+	public string Author {get; set;}
+	}
+
+List<Book> bookList = new List<Book>();
+bookList.Add(new Book {Title = "Purple Hibiscus", Author = "Chimamanda Adichie"});
+bookList.Add(new Book {Title = "School of Darkness", Author = "Bella Dodd"});
+bookList.Add(new Book {Tile = "Franklin Cover Up", Author = "John DeCamp"});
+
+// iterate and Print the books
+for (i = 0; i < bookList.Count; i++)
+{
+	Book book = bookList[i];
+	Console.WriteLine($"Book {i+1}");
+	Console.WriteLine($"Title: {book.Tile}");
+	Console.WriteLine($"Autbor: {book.Author}");
+	Console.WriteLine("  ")
+}
 
 
 
@@ -73,3 +92,18 @@ Console.WriteLine(array_to_sort);
 
 Array.Reverse(array_to_sort);
 Console.WriteLine(array_to_sort);
+
+// Question 7: Array Length
+//
+int[] nums_array = {10, 20, 30, 40, 50};
+var nums_array_len = nums_array.Length;
+Console.WriteLine(nums_array_len);
+
+// Question 8: List Comprehension
+
+List<string> fruits = ["apple", "banana", "cherry"];
+
+fruits.Add("date");
+fruits.Remove("banana");
+Console.WriteLine($"{string.Join(", ",fruits}")
+
