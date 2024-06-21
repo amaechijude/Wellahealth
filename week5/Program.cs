@@ -3,7 +3,7 @@
 //  using System.Collections.Generic;
 
 using System.Collections.ObjectModel;
-
+using BookNamespace;
 // // Question 1
 // List<string> colours = new List<string> {"red", "green", "blue"};
 
@@ -61,24 +61,20 @@ int[] merged_array = array1.Concat(array2).ToArray();
 Console.WriteLine($"{string.Join(", ", merged_array)}");
 
 // Question 5:
-public class Book {
-	public string Title {get; set;}
-	public string Author {get; set;}
-	}
 
 List<Book> bookList = new List<Book>();
 bookList.Add(new Book {Title = "Purple Hibiscus", Author = "Chimamanda Adichie"});
 bookList.Add(new Book {Title = "School of Darkness", Author = "Bella Dodd"});
-bookList.Add(new Book {Tile = "Franklin Cover Up", Author = "John DeCamp"});
+bookList.Add(new Book {Title = "Franklin Cover Up", Author = "John DeCamp"});
 
 // iterate and Print the books
-for (i = 0; i < bookList.Count; i++)
+for (var i = 0; i < bookList.Count; i++)
 {
 	Book book = bookList[i];
 	Console.WriteLine($"Book {i+1}");
-	Console.WriteLine($"Title: {book.Tile}");
+	Console.WriteLine($"Title: {book.Title}");
 	Console.WriteLine($"Autbor: {book.Author}");
-	Console.WriteLine("  ")
+	Console.WriteLine("  ");
 }
 
 
@@ -105,5 +101,5 @@ List<string> fruits = ["apple", "banana", "cherry"];
 
 fruits.Add("date");
 fruits.Remove("banana");
-Console.WriteLine($"{string.Join(", ",fruits}")
+Console.WriteLine($"{string.Join(", ",fruits)}");
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\okwuolisa\\Wellahealth\\week5\\week5.csproj": {}
+    "C:\\Users\\okwuolisa\\WellaHealth\\week5\\week5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\okwuolisa\\Wellahealth\\week5\\week5.csproj": {
+    "C:\\Users\\okwuolisa\\WellaHealth\\week5\\week5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\okwuolisa\\Wellahealth\\week5\\week5.csproj",
+        "projectUniqueName": "C:\\Users\\okwuolisa\\WellaHealth\\week5\\week5.csproj",
         "projectName": "week5",
-        "projectPath": "C:\\Users\\okwuolisa\\Wellahealth\\week5\\week5.csproj",
+        "projectPath": "C:\\Users\\okwuolisa\\WellaHealth\\week5\\week5.csproj",
         "packagesPath": "C:\\Users\\okwuolisa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\okwuolisa\\Wellahealth\\week5\\obj\\",
+        "outputPath": "C:\\Users\\okwuolisa\\WellaHealth\\week5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\okwuolisa\\AppData\\Roaming\\NuGet\\NuGet.Config"
