@@ -57,7 +57,7 @@ Console.WriteLine($"The max number is: {max_num}");
 int[] array1 = {1, 2, 3};
 int[] array2 = {4, 5, 6};
 int[] merged_array = array1.Concat(array2).ToArray();
-string output = string.Join(", ", merged_array)
+string output = string.Join(", ", merged_array);
 Console.WriteLine("{ " + output +" }");
 
 // Question 5:
@@ -79,21 +79,22 @@ for (var i = 0; i < bookList.Count; i++)
 
 
 
-// Question 6: Sorting and reversing
+// Question 6:  Array Sort
 int[] array_to_sort = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};
 
 Array.Sort(array_to_sort);
-Console.WriteLine(string.Join(array_to_sort));
-// Reverse
+Console.WriteLine($"{string.Join(", ", array_to_sort)}\n");
 
-Array.Reverse(array_to_sort);
-Console.WriteLine(string.Join(array_to_sort));
+// Reverse
+int[] array_to_reverse = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};
+Array.Reverse(array_to_reverse);
+Console.WriteLine($"{string.Join(", ", array_to_reverse)}\n");
 
 // Question 7: Array Length
 //
 int[] nums_array = {10, 20, 30, 40, 50};
 var nums_array_len = nums_array.Length;
-Console.WriteLine($" The length of the array is: {nums_array_len}\n");
+Console.WriteLine($"The length of the array is: {nums_array_len}\n");
 
 // Question 8: List Comprehension
 
