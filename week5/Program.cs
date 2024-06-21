@@ -17,7 +17,7 @@ ReadOnlyCollection<string> colour_read_only = colours.AsReadOnly();
 // The modification below throws an error
 //colour_read_only.Add ("purple");
 
-Console.WriteLine($"[{string.Join(",", colour_read_only)}]");
+Console.WriteLine($"[{string.Join(",", colour_read_only)}]\n");
 
 // Question 2: Resizing list
 
@@ -50,7 +50,7 @@ hundred_numbers.Add(9);
 List<int> nums = [3, 8, 2, 9];
 int max_num = nums.Max();
 
-Console.WriteLine($"The max number is: {max_num}");
+Console.WriteLine($"The max number is: {max_num}\n");
 
 // Question 4: Merge two arrays
 
@@ -58,7 +58,7 @@ int[] array1 = {1, 2, 3};
 int[] array2 = {4, 5, 6};
 int[] merged_array = array1.Concat(array2).ToArray();
 string output = string.Join(", ", merged_array);
-Console.WriteLine("{ " + output +" }");
+Console.WriteLine("{ " + output +" }\n");
 
 // Question 5:
 
@@ -82,13 +82,16 @@ for (var i = 0; i < bookList.Count; i++)
 // Question 6:  Array Sort
 int[] array_to_sort = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};
 
+Console.WriteLine("Sorted array");
 Array.Sort(array_to_sort);
 Console.WriteLine($"{string.Join(", ", array_to_sort)}\n");
 
 // Reverse
-int[] array_to_reverse = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};
-Array.Reverse(array_to_reverse);
-Console.WriteLine($"{string.Join(", ", array_to_reverse)}\n");
+// int[] array_to_reverse = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};
+// Array.Reverse(array_to_reverse);
+Console.WriteLine("Reversed array");
+Array.Reverse(array_to_sort);
+Console.WriteLine($"{string.Join(", ", array_to_sort)}\n");
 
 // Question 7: Array Length
 //
