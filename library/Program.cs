@@ -1,55 +1,23 @@
 ﻿// See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
-
 using Solution;
+ 
+  // entry point
+Library newLibrary = new();
+newLibrary.SetLibrary("WellaHealth", "Remote");
+// info.Name = ;
+// info.Location = ;
 
+Console.WriteLine(newLibrary.DisplayInfo());
 
-namespace Solution
-{
- public class Library
- {
-    public string Name {get; set;}
-    public string Location {get; set;}
+Book newBook = new();
+newBook.SetBook("Text Book", "Amaechi", 2024);
+Console.WriteLine(newBook.DisplayBookInfo());
 
-   //  public string library(string name, string location) 
-   //  {
-   //      Name = name;
-   //      Location = location;
-   //  }
-    public string DisplayInfo()
-    {
-      return $"Name: {Name} --- Location: {Location}";
-    }
-    
- }
+Member newMember = new();
+newMember.SetMember("Amaechi", "amaechi@wellahealth.com");
+Console.WriteLine(newMember.DisplayMemberInfo());
 
-
-//  public class Book
-//  {
-
-//  } 
-
-//  public class Member
-//  {
-//     public string Name  = "Wella Lirary";
-//     public string Email  = "wellaheath@gmail.com";
-//  }
-
-//  public class BorrowTransaction
-//  {
-
-//  }
-
-// public class Person
-// {
-    
-// }
-public void  main([])
-Library info = new();
-info.Name = "WellaHealth";
-info.Location = "Remote";
-
-Console.WriteLine($"{info.DisplayInfo()}");
-
-}
-
+Person newPerson = new();
+newPerson.SetMember("Jude", "jude@wellahealth.com");
+Console.WriteLine(newPerson.DisplayMemberInfo());
