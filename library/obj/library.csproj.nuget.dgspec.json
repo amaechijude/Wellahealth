@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\okwuolisa\\Wellahealth\\library\\library.csproj": {}
+    "/home/amaechi/code/Wellahealth/library/library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\okwuolisa\\Wellahealth\\library\\library.csproj": {
+    "/home/amaechi/code/Wellahealth/library/library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\okwuolisa\\Wellahealth\\library\\library.csproj",
+        "projectUniqueName": "/home/amaechi/code/Wellahealth/library/library.csproj",
         "projectName": "library",
-        "projectPath": "C:\\Users\\okwuolisa\\Wellahealth\\library\\library.csproj",
-        "packagesPath": "C:\\Users\\okwuolisa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\okwuolisa\\Wellahealth\\library\\obj\\",
+        "projectPath": "/home/amaechi/code/Wellahealth/library/library.csproj",
+        "packagesPath": "/home/amaechi/.nuget/packages/",
+        "outputPath": "/home/amaechi/code/Wellahealth/library/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\okwuolisa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/amaechi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.107/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
