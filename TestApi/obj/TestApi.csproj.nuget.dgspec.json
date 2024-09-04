@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/amaechi/code/Wellahealth/library/library.csproj": {}
+    "/home/amaechi/code/Wellahealth/TestApi/TestApi.csproj": {}
   },
   "projects": {
-    "/home/amaechi/code/Wellahealth/library/library.csproj": {
+    "/home/amaechi/code/Wellahealth/TestApi/TestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/amaechi/code/Wellahealth/library/library.csproj",
-        "projectName": "library",
-        "projectPath": "/home/amaechi/code/Wellahealth/library/library.csproj",
+        "projectUniqueName": "/home/amaechi/code/Wellahealth/TestApi/TestApi.csproj",
+        "projectName": "TestApi",
+        "projectPath": "/home/amaechi/code/Wellahealth/TestApi/TestApi.csproj",
         "packagesPath": "/home/amaechi/.nuget/packages/",
-        "outputPath": "/home/amaechi/code/Wellahealth/library/obj/",
+        "outputPath": "/home/amaechi/code/Wellahealth/TestApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/amaechi/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -49,6 +55,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
