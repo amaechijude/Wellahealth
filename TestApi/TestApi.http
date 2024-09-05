@@ -1,6 +1,1 @@
-@TestApi_HostAddress = http://localhost:5226
-
-GET {{TestApi_HostAddress}}/haha/
-Accept: application/json
-
-###
+GET http://localhost:5226/api/NewApi/
