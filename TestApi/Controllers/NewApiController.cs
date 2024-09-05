@@ -29,7 +29,7 @@ namespace TestApi.Controllers
         }
 
         [HttpPost(Name = "NewApiPost")]
-        public IActionResult NewApiPost([FromBody] ApiRecord wellaRecord)
+        public IActionResult NewApiPost([FromBody] NewApiClass wellaRecord)
         {
             if (wellaRecord == null)
             {
@@ -38,11 +38,9 @@ namespace TestApi.Controllers
             else
             {
                 string date = DateTime.Now.ToString("F");
-                ApiRecord Haha = new(wellaRecord.Id, $"{wellaRecord.Name}", date);
+                NewApiClass Haha = new(wellaRecord.Id, $"{wellaRecord.Name}", date);
 
-                TestRecord.Add(Haha);
-
-                return Ok(TestRecord.ToArray());
+                return Ok(Haha);
             }
 
         }

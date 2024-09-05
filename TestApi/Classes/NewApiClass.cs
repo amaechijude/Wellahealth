@@ -11,11 +11,11 @@ namespace TestApi
         public string Name;
         public string DateN;
 
-        public NewApiClass(int Id, string Name)
+        public NewApiClass(int Id, string Name, string DateN)
         {
             this.Id = Id;
             this.Name = Name;
-            this.DateN = DateTime.Now.ToString("F");
+            this.DateN = DateN;
         }
     }
 
