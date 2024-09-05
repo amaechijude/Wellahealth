@@ -4,16 +4,16 @@ namespace TestApi.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class WeatherForecastController : ControllerBase
+public class ChangeIsHereController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-    private readonly ILogger<WeatherForecastController> _logger;
+    private readonly ILogger<ChangeIsHereController> _logger;
 
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    public ChangeIsHereController(ILogger<ChangeIsHereController> logger)
     {
         _logger = logger;
     }
